@@ -1,0 +1,14 @@
+// Add your settings here
+@import "_variables";
+
+//fonts
+@include font-face('Open Sans','OpenSans-Regular');
+@include font-face('Open Sans Bold','OpenSans-Bold');
+@include font-face('Open Sans BoldItalic','OpenSans-BoldItalic');
+@include font-face('Open Sans ExtraBold','OpenSans-ExtraBold');
+@include font-face('Open Sans ExtraBoldItalic','OpenSans-ExtraBoldItalic');
+@include font-face('Open Sans Italic','OpenSans-Italic');
+@include font-face('Open Sans Light','OpenSans-Light');
+@include font-face('Open Sans LightItalic','OpenSans-LightItalic');
+@include font-face('Open Sans Semibold','OpenSans-Semibold');
+@include font-face('Open Sans SemiboldItalic','OpenSans-SemiboldItalic');

@@ -1,0 +1,18 @@
+//misc settings
+@import 'config/_mixins';
+@import 'config/_settings';
+@import 'config/_variables';
+
+//pages
+@import "pages/index";
+
+//global things
+@import 'general/_reset';
+@import 'layout/_main';
+
+// Bootstrap
+@import "bootstrap/assets/stylesheets/bootstrap";
+
+// fontawesome
+@import "fontawesome/font-awesome";
+

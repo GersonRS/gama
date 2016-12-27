@@ -1,0 +1,257 @@
+section {
+	background-color: white;
+}
+.div-height {
+	height: 100%;
+}
+.div-width {
+	width: 100%;
+}
+.div-padding{
+	padding-top:42px;
+	padding-bottom: 42px;
+}
+.div-border {
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-radius: 1px;
+}
+.container-fluid {
+    width:$container;
+    height: 100%;
+}
+.footer {
+	height: 300px;
+	color: #fff;
+	background-color: #060515;
+}
+.contatos {
+	p {
+	    @extend .font-open;
+	    span {
+	        padding-right: 10px;
+	    }
+	}
+}
+.navbar-default .navbar-nav > li > .active {
+	color:red;
+}
+.navbar-brand {
+    height: auto !important;
+}
+.navbar {
+    margin-bottom: 0px !important;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #d3e0e9;
+}
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+.nav {
+    padding: 40px 0px;
+    li {
+        a {
+            text-transform: uppercase;
+            font-family: 'Open Sans Bold';
+        }
+    }
+}
+.item {
+	.row {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	    .col-md-4 {
+	    	height: 313px;
+	    	padding-left: 0px;
+	        padding-right: 0px;
+	        .texto{
+	        	padding-left: 30px;
+	        	padding-right: 20px;
+	        	padding-top: 20px;
+	        	height: 100%;
+	        	.row {
+	        		margin-left: 0px;
+	        	    margin-right: 0px;
+	        	    h3 {
+	        	        font-family: 'Open Sans Bold';
+	        	        text-transform: uppercase;
+	        	    }
+	        	    p {
+	        	        font-family: 'Open Sans';
+	        	    }
+	        	    a {
+	        	        margin-top:10px;
+	        	        padding: 20px 50px;
+	        	        border-radius: 0px;
+	        	        font-family: 'Open Sans Bold';
+	        	        text-transform: uppercase;
+	        	        color: white;
+	        	        border-color: transparent;
+	        	    }
+	        	}
+	        }
+	    }
+	}
+}
+.content {
+	margin-bottom: 100px;
+}
+.setas {
+	background-color: transparent;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    height: 10%;
+    left: 260px;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    top: 275px;
+    width: 15%;
+    a{
+	    text-decoration: none;
+	    &:hover{
+	        text-decoration: none;
+	    }
+	}
+}
+.setas3 {
+	background-color: transparent;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    height: 10%;
+    left: 195px;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    top: 201px;
+    width: 15%;
+    a{
+	    text-decoration: none;
+	    &:hover{
+	        text-decoration: none;
+	    }
+	}
+}
+.setas2 {
+	margin-top:30px;
+	font-size: 30px;
+	a{
+	    text-decoration: none;
+	    &:hover{
+	        text-decoration: none;
+	    }
+	}
+}
+.work {
+	background-color: #1f1f51;
+	margin-top:150px;
+	height: 437px;;
+	@extend .text-uppercase;
+	@extend .font-open-bold;
+	color: #fff;
+}
+.text-work {
+    padding-top: 60px;
+    text-align: center;
+    * {
+        padding-top: 15px;
+    }
+}
+.button-custom {
+    text-align: center;
+    margin-top: 70px;
+	a {
+	    text-transform: uppercase;
+	    font-size: 25px;
+	    border-radius: 0px;
+	    border-color: transparent;
+	    padding: 20px 60px;
+	    background-color:red;
+	    color: #fff;
+	}
+}
+.form {
+    height: 300px;
+	@extend .font-open;
+
+}
+.modal-header{
+    border-bottom: 0px !important;
+    color: #310058;
+	h2 {
+	    @extend .font-open-bold;
+	}
+	p {
+        @extend .font-open;
+	}
+}
+.modal-footer {
+    border-top: 0px !important;
+}
+.fa {
+	background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #060515;
+    padding: 5px;
+}
+.man {
+	position: relative;
+	top:-131px;
+}
+#carousel-3 {
+	margin-top: 50px;
+}
+.titulo {
+    height: 90px;
+	text-align: center;
+	width: 100%;
+	margin-left: 0px !important;
+	h2 {
+	    @extend .font-open-extra-bold;
+	    @extend .text-uppercase;
+	}
+	background-color: #242254;
+	color:#fff;
+}
+
+.text-empresa {
+    h3 {
+	    @extend .font-open-bold;
+	    color: #232153;
+	    margin-bottom: 30px;
+	}
+	margin-top: 50px;
+}
+.text-seguradoras {
+	margin-top: 50px;
+	margin-bottom: 200px;
+}
+input {
+	height: 50px !important;
+}
+.form-control {
+    border-radius: 0px;
+	margin: 20px 0;
+
+}
+
+.form-contato {
+    height: 300px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+	@extend .font-open;
+}
+
+.btn-enviar {
+	width:100%;
+	height: 50px;
+}
+

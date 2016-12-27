@@ -1,0 +1,80 @@
+
+// Body
+$body-bg: #fff;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$font-family: 'Open Sans';
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+//colors
+$black: #000000;
+$white: #FFFFFF;
+$black-1: #21232C;
+$black-title: #1B1D27;
+$white-title: #FFFFFF;
+$green: #8EA96F;
+
+// geral
+$container: 75%;
+
+
+.font-open {
+	font-family: 'Open Sans';
+}
+.font-open-bold {
+	font-family: 'Open Sans Bold';
+}
+.font-open-bold-italic {
+	font-family: 'Open Sans BoldItalic';
+}
+.font-open-extra-bold {
+	font-family: 'Open Sans ExtraBold';
+}
+.font-open-extra-bold-italic {
+	font-family: 'Open Sans ExtraBoldItalic';
+}
+.font-open-italic {
+	font-family: 'Open Sans Italic';
+}
+.font-open-light {
+	font-family: 'Open Sans Light';
+}
+.font-open-light-italic {
+	font-family: 'Open Sans LightItalic';
+}
+.font-open-semi-bold {
+	font-family: 'Open Sans Semibold';
+}
+.font-open-semi-bold-italic {
+	font-family: 'Open Sans SemiboldItalic';
+}
