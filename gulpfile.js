@@ -74,7 +74,6 @@ gulp.task('scripts-deploy', function() {
                 //this is the filename of the compressed version of our JS
                 .pipe(concat('app.js'))
                 //compress :D
-                .pipe(uglify())
                 //where we will store our finalized, compressed script
                 .pipe(gulp.dest('dist/scripts'));
 });
@@ -132,7 +131,6 @@ gulp.task('styles-deploy', function() {
                 }))
                 //the final filename of our combined css file
                 .pipe(concat('styles.css'))
-                .pipe(minifyCSS())
                 //where to save our final, compressed css file
                 .pipe(gulp.dest('dist/styles'));
 });
